@@ -1,0 +1,36 @@
+<?xml-stylesheet type="text/css" href="5.css"?>
+<html>
+	<head>
+		<h1>Student description</h1>
+	</head>
+	
+	<students>
+		<student>
+			<USN> USN : 1RN15CS090 </USN>
+			<name> Name: Ruthvik </name>
+			<college> College:RNSIT</college>
+			<branch> Branch:CSE</branch>
+			<year> Year:2019</year>
+			<email> Email:rk99219@gmail.com</email>
+			
+		</student>
+		<student>
+			<USN> USN : 1RN15IS080 </USN>
+			<name> Name: Rahul </name>
+			<college> College:RNSIT</college>
+			<branch> Branch:ISE</branch>
+			<year> Year:2014</year>
+			<email> Email:rahul@gmail.com</email>
+			
+		</student>
+		<student>
+			<USN> USN : 1RN15EC081 </USN>
+			<name> Name: Preetham </name>
+			<college> College:RNSIT</college>
+			<branch> Branch:ECE</branch>
+			<year> Year:2019</year>
+			<email> Email:pk@gmail.com</email>
+			
+		</student>
+	</students>
+</html>

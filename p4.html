@@ -1,0 +1,31 @@
+<html>
+	<body>
+		<script>
+			var inp=prompt("Enter the input","");
+			if(!isNaN(inp)){
+				var num,rev=0,d;
+				num=parseInt(inp);
+				while(num!=0){
+					d=num%10;
+					rev=(rev*10)+d;
+					num=parseInt(num/10);
+				}
+				alert("Reverse of "+inp+" is "+rev);
+			}
+			else{
+				str=inp.toUpperCase();
+				var i;
+				for(i=0;i<str.length;i++){
+					var ch=str.charAt(i);
+					if(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){break;}
+					
+				}
+				if(i<str.length)
+					alert("Vowel found in position : "+(i+1));
+				else
+					alert("Vowel not found");	
+				
+			}
+		</script>
+	</body>
+</html>
